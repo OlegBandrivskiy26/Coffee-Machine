@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+        <div class="coffemachine">
+            <div class="water__amount">
+                <div class="water">
+                    <div class="water__reit" id="waterRate"></div>
+                </div>
+            </div>
+            <div class="screen__grp">
+                <div class="power__grp">
+                    <div class="screen">
+                        <div class="grp__menu">
+                            <button class="menu__h1" id="Capuchino">Capuchino</button>
+                            <button class="menu__h1" id="flatWhite">Flat White</button>
+                            <button class="menu__h1" id="addMilk">Додати молоко</button>
+                            <button class="menu__h1" id="addWater">Додати воду</button>
+                        </div>
+                        <div class="water__war__grp">
+                            <div class="water__war">Один з контейнерів <br>
+                                наповнено достатньо</div>
+                            <button class="menu__h1" id="return">Повернутися</button>
+                        </div>
+                        <div class="loader__grp">
+                            <div class="number__loader" id="number">0</div>
+                            <div class="loader__outline">
+                                <div class="loader" id="loader"></div>
+                            </div>
+                        </div>
+                        <div class="error__grp">
+                            <div class="error">Наповніть контейнери <br>
+                                молоком та водою
+                            </div>
+                            <button class="menu__h1" id="return2">Повернутися</button>
+                        </div>
+                    </div>
+                    <button class="button__power">
+                        <div class="img__power" id="btnPower"></div>
+                    </button>
+                </div>
+                <div class="grp__coffe">
+                    <div class="line"></div>
+                    <div class="bg__coffe">
+                        <div class="delivery__coffe">
+                            <div class="block__black"></div>
+                            <div class="block__grey">
+                                <div class="white__line"></div>
+                                <div class="white__line"></div>
+                            </div>
+                            <div class="blackBall__grp">
+                                <div class="black__ball"></div>
+                                <div class="black__ball"></div>
+                            </div>
+                            <div class="liquid__grp">
+                                <div class="liquid__container">
+                                    <div class="liquid liquid__coffee"></div>                                <div class="liquid liquid__coffee"></div>
+                                    <div class="liquid liquid__milk"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mag__img"></div>
+                        <div class="bottom__coffe"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="water__amount">
+                <div class="water">
+                    <div class="milk__reit" id="milkRate"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
